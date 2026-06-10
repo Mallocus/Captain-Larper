@@ -3,7 +3,6 @@
 # =====================================================
 /dist
 /temp
-/data/cape-purchases.json
 /**/config/**/*.json
 !/**/config/**/*.example.json
 

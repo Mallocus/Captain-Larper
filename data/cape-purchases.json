@@ -1,0 +1,55 @@
+{
+    "title": "Mallocus's Cape Journey",
+    "currency": "USD",
+    "purchases": [
+        {
+            "id": 1,
+            "item": "Experience Cape",
+            "amount": 52.77,
+            "date": "2026-05-03",
+            "note": "``Bought from McCapes.com.``"
+        },
+        {
+            "id": 2,
+            "item": "Home Cape",
+            "amount": 3.99,
+            "date": "2026-05-03",
+            "note": "``Bought from McCapes.com.``"
+        },
+        {
+            "id": 3,
+            "item": "Menace Cape",
+            "amount": 6.99,
+            "date": "2026-05-03",
+            "note": "``Bought from McCapes.com.``"
+        },
+        {
+            "id": 4,
+            "item": "Copper Cape",
+            "amount": 4.99,
+            "date": "2026-05-03",
+            "note": "``Bought from McCapes.com.``"
+        },
+        {
+            "id": 5,
+            "item": "Minecraft Dungeons Ultimate Edition (Microsoft)",
+            "amount": 9.99,
+            "date": "2026-06-07",
+            "note": "``Bought to start obtaining Minecraft Dungeons Capes, it was on sale!``"
+        },
+        {
+            "id": 6,
+            "item": "Minecraft Dungeons Ultimate Edition (Steam)",
+            "amount": 9.99,
+            "date": "2026-06-07",
+            "note": "``Bought to start obtaining Minecraft Dungeons Capes, it was on sale! I realized that I could not play on Linux with the Microsoft version, so I bought the Steam version.``"
+        },
+        {
+            "id": 7,
+            "item": "Minecraft Dungeons II Pre-order Deluxe Edition",
+            "amount": 49.99,
+            "date": "2026-06-07",
+            "note": "``Bought this so I could get Minecraft Dungeons II Capes, as well as the two pre-order capes with Deluxe edition. I first bought it on Microsoft Store, but then I realized that I could not play on Linux with the Microsoft version, so I will soon pre-order it on Steam to get the two capes with Delux edition pre-order. I have to stop buying it on Microsoft dam.``"
+        }
+    ]
+}
