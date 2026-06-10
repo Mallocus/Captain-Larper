@@ -60,6 +60,15 @@ export const ChatCommandMetadata: {
             },
         ],
     },
+    SPENT: {
+        type: ApplicationCommandType.ChatInput,
+        name: Lang.getRef('chatCommands.spent', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.spent'),
+        description: Lang.getRef('commandDescs.spent', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.spent'),
+        dm_permission: true,
+        default_member_permissions: undefined,
+    },
     TEST: {
         type: ApplicationCommandType.ChatInput,
         name: Lang.getRef('chatCommands.test', Language.Default),

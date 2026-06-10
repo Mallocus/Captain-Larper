@@ -1,0 +1,13 @@
+{
+    "title": "Captain Larper's Cape Journey",
+    "currency": "USD",
+    "purchases": [
+        {
+            "id": 1,
+            "item": "Menace Cape",
+            "amount": 29.99,
+            "date": "2025-03-15",
+            "note": "Optional note"
+        }
+    ]
+}

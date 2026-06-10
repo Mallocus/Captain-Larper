@@ -3,7 +3,13 @@ import { Options, Partials } from 'discord.js';
 import { createRequire } from 'node:module';
 
 import { Button } from './buttons/index.js';
-import { DevCommand, HelpCommand, InfoCommand, TestCommand } from './commands/chat/index.js';
+import {
+    DevCommand,
+    HelpCommand,
+    InfoCommand,
+    SpentCommand,
+    TestCommand,
+} from './commands/chat/index.js';
 import {
     ChatCommandMetadata,
     Command,
@@ -26,6 +32,7 @@ import { Job } from './jobs/index.js';
 import { Bot } from './models/bot.js';
 import { Reaction } from './reactions/index.js';
 import {
+    CapePurchaseService,
     CommandRegistrationService,
     EventDataService,
     JobService,
@@ -39,6 +46,7 @@ let Logs = require('../lang/logs.json');
 
 async function start(): Promise<void> {
     // Services
+    let capePurchaseService = new CapePurchaseService();
     let eventDataService = new EventDataService();
 
     // Client
@@ -60,6 +68,7 @@ async function start(): Promise<void> {
         new DevCommand(),
         new HelpCommand(),
         new InfoCommand(),
+        new SpentCommand(capePurchaseService),
         new TestCommand(),
 
         // Message Context Commands

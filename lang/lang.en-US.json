@@ -36,7 +36,8 @@
                             "To see the available commands, just type `/` and select the bot from the left side. You can then scroll through all available commands. Some commands may be hidden if you don't have permission to view them.",
                             "",
                             "{{CMD_LINK_TEST}} - {{REF:commandDescs.test}}",
-                            "{{CMD_LINK_INFO}} - {{REF:commandDescs.info}}"
+                            "{{CMD_LINK_INFO}} - {{REF:commandDescs.info}}",
+                            "{{CMD_LINK_SPENT}} - {{REF:commandDescs.spent}}"
                         ]
                     },
                     {
@@ -86,6 +87,14 @@
             "translate": {
                 "title": "{{COM:bot.name}} - Translations",
                 "description": "Thank you to our translators who have made it possible for {{COM:bot.name}} to be used in the following languages. If you are interested in providing a translation, please contact the staff in our [support server]({{COM:links.support}})."
+            },
+            "spent": {
+                "title": "{{TITLE}}"
+            },
+            "spentEmpty": {
+                "title": "{{REF:spent.defaultTitle}}",
+                "description": "No cape purchases have been logged yet.",
+                "color": "{{COM:colors.default}}"
             },
             "devInfo": {
                 "title": "{{COM:bot.name}} - Developer Info",
@@ -175,6 +184,14 @@
             "notImplemented": {
                 "description": "This feature has not been implemented yet!",
                 "color": "{{COM:colors.warning}}"
+            },
+            "spentDataMissing": {
+                "description": "Cape purchase data is not available yet. Check back later!",
+                "color": "{{COM:colors.warning}}"
+            },
+            "spentDataInvalid": {
+                "description": "Cape purchase data could not be loaded. Please contact the bot owner.",
+                "color": "{{COM:colors.error}}"
             }
         },
         "channelRegexes": {
@@ -192,6 +209,7 @@
             "dev": "dev",
             "help": "help",
             "info": "info",
+            "spent": "spent",
             "test": "test"
         },
         "userCommands": {
@@ -208,7 +226,14 @@
             "dev": "Developer use only.",
             "help": "Find help or contact support.",
             "info": "View bot info.",
+            "spent": "View cape journey purchases and total spent.",
             "test": "Run the test command."
+        },
+        "spent": {
+            "defaultTitle": "Cape Journey Spending",
+            "totalName": "Total Spent",
+            "truncatedName": "Note",
+            "truncatedValue": "Showing {{SHOWN}} of {{TOTAL}} purchases."
         },
         "argDescs": {
             "devCommand": "Command.",
